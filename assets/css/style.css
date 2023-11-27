@@ -1,0 +1,458 @@
+html, body {
+    max-width: 100%;
+    overflow-x: initial;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+
+/* css untuk sidebar*/
+.main-sidebar{
+    float: left;
+    width: 343px;
+    top: 0;
+    bottom: 0;
+    background-color: #00296b;
+    position: fixed;
+    z-index: 999;
+}
+.menu{
+    position: fixed;
+    bottom: 0;
+}
+
+.sidebar-menu{
+    
+    padding-left: 15px;
+    padding-bottom: 26px;
+}
+
+.active>a{
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    right: 0;
+    display: block;
+}
+.active{
+    /* padding: 14px 0 14px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    background-color: #01509D;
+    /* border-radius: 0 50%; */
+
+}
+
+.icon{
+    margin: 6px 6px 6px;
+}
+
+.label{
+    height: 98px ;
+    /* width: 1028px; */
+}
+
+.RENTAJA{
+    position: relative;
+    top: 35px;
+    left: 32px;
+}
+.logout{
+    width: 343px;
+    height: 66px;
+    background-color: #001941;
+    bottom: 0;
+    
+}
+.logout>p{
+    position: relative;
+    top: 23px;
+    left: 70px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+}
+
+/* menu>li.activei>a {
+    color: #fff;
+    background: #1e282c;
+    border-left-color: #3c8dbc;
+} */
+
+
+/* akhir css sidebar*/
+
+
+/*css untuk header*/
+.main-header{
+    position: fixed;
+    height: 98px;
+    left: 343px;
+    right: 0px;
+    float: left;
+    background-color: #01509d;
+    z-index: 9999;
+}
+
+.user{
+  
+    position: relative;
+    float: left;
+    
+}
+.avatar{
+    padding: 29px 33px;
+    height: 98px;
+    float: right;
+    right: 35px;
+    box-sizing: border-box;
+  
+}
+
+.text-wrapper{
+    top: 8px;
+    left: 15px;
+    right: 35px;
+    position: relative;
+    font-family: "Montserrat-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    float: left;
+}
+
+
+
+/* akhir css header*/
+
+/*css untuk content*/
+.content-wrapper{
+    position: relative;
+    top: 98px;
+    padding-left: 344px;
+    /* right: 0; */
+    background-color: #ffffff;
+}
+
+.content-header {
+    position: relative;
+    padding: 33px 0 0 41px;
+    
+    font-family: "Montserrat-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #00296b;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.col-lg-4 {
+    width: 33.33333333%;
+    padding: 47px 15px; 
+}
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+    
+}
+
+.small-box{
+    padding-left: 70px;
+    padding-right: 64px;
+    padding-top: 39px;
+    /* position: fixed; */
+ /* width: 331px; */
+    height: 150px;
+    /* top: 0;
+    left: 0; */
+    box-shadow: 10px 20px 10px #0000007d;
+    background-color: #00296b;
+    border-radius: 20px
+    
+}
+
+.isi{
+    float: left;
+    height: 54px;
+}
+
+.inner>h3{
+    font-size: 38px;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.inner{
+    margin-left: 19px;
+    float: left;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: normal;
+}
+.inner>p{
+    
+    font-size: 15px;
+    letter-spacing: 0;
+}
+
+input.date{
+    border-radius: 5px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #00296b;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    width: 196px;
+    height: 18px;
+    margin-top: 18px;
+}
+/* CSS untuk mengatur tampilan input date dengan class 'date' */
+input.date {
+    padding-right: 10px; /* Menambahkan ruang untuk ikon */
+}
+
+/* CSS untuk menambahkan ikon segitiga */
+input.date::-webkit-calendar-picker-indicator {
+    background-image: url('http://localhost/travel/assets/img/segitiga.png'); /* Ganti dengan path ikon segitiga Anda */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15px; /* Sesuaikan ukuran ikon */
+    height: 15px; /* Sesuaikan ukuran ikon */
+    opacity: 1; /* Menampilkan ikon */
+    padding-top: 7px;
+}
+
+
+.s-box{
+    margin: auto;
+
+}
+
+.table-header{
+    width: 90%;
+    text-align: center;
+    background-color: #fffdfd;
+    box-shadow: 0px 4px 17px #0000007a;
+    margin: auto;
+    border: 1px solid #fffdfd;
+}
+table.table-header thead > tr > th {
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #000000;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+}
+table.table-header tbody > tr > td {
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #c1c1c1;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+}
+.daftar{
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #00296b;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding-left: 41px;
+    padding-bottom: 17px;
+}
+
+
+
+
+/* tambah kendaraan */
+.content-tambahkendaraan{
+    padding-top: 45px;
+    padding-left: 96px;
+    font-family: "Montserrat-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+input.input-kendaraan{
+    width: 358px;
+    height: 54px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    font-weight: 800;
+    color: #000000;
+    font-size: 20px;
+    padding-left: 10px;
+    letter-spacing: 0;
+    margin-left: 30px;
+}
+
+table.table-tambahkendaraan thead > tr > th{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+tr.foto {
+    border-top: 150px solid #ffffff;
+}
+
+section.content-data {
+    /* margin-top: 125px; */
+    /* float: left; */
+    /* margin-right: 0;
+    margin-left: 0; */
+    padding-top: 125px;
+}
+.table-mobil, .table-pesanan{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    width: 1018px;
+    gap: 20px;
+
+}
+
+.table-mobil thead>tr, .table-pesanan thead>tr{
+    background-color: #f5f5f5;
+    border-color: #000000;
+    border-top: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-left: 2px solid #000000;
+}
+.table-mobil tbody >tr, .table-pesanan tbody>tr{
+    /* background-color: #f5f5f5; */
+    border-top: 2px solid #e1cfff;
+    border-right: 2px solid #e1cfff;
+    border-left: 2px solid #e1cfff;
+    border-bottom: 2px solid #e1cfff;
+}
+
+table.table-mobil  thead > tr > th {
+    padding-right: 30px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 22px;    
+    letter-spacing: 0;
+}
+
+table.table-mobil  tbody > tr > td {
+    padding-right: 30px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 22px;    
+    letter-spacing: 0;
+}
+
+table.table-pesanan  thead > tr > th {
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+}
+
+.profil{
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    padding-top: 43px;
+    padding-bottom: 35px;
+}
+
+.row-profil{
+    /* background-color: #01509D; */
+    width: 978px;
+    height: 361px;
+}
+
+.box-left{
+    background-color: #f9f9f9;
+    width: 269px;
+    height: 361px;
+    border-radius: 10px;
+    box-shadow: 8px 13px 10px #0000001a, -6px -3px 10px #ffffff;
+    float: left;
+}
+
+.box-right{
+    background-color: #f9f9f9;
+    width: 668px;
+    height: 361px;
+    border-radius: 10px;
+    box-shadow: 8px 13px 10px #0000001a, -6px -3px 10px #ffffff;
+    float: right;
+    padding: 28px 44px 59px 27px;
+}
+
+.profilpt{
+    width: 358px;
+    height: 54px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    float: right;
+    margin: auto;
+}
+
+table.table-profil  thead > tr > th {
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    vertical-align: middle;
+}
+img.user-image {
+    height:  40%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+/* .all{
+    width: 100%;
+} */
+/* akhir css content*/
