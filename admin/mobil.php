@@ -85,7 +85,7 @@ if(strlen($_SESSION['alogin'])==0){
 									<tbody>
 									<?php
 									$no=0;
-									$sqlmobil = "SELECT * from  mobil INNER JOIN `owner` ";
+									$sqlmobil = "SELECT * from  mobil ";
 									$querymobil = mysqli_query($koneksidb,$sqlmobil);
 									while ($result = mysqli_fetch_array($querymobil)){
 										$no++;
@@ -96,7 +96,7 @@ if(strlen($_SESSION['alogin'])==0){
 											<td><?php echo htmlentities($result['merk_type']);?></td>
 											<td><?php echo format_rupiah($result['harga']);?></td>
 											<td><?php echo htmlentities($result['tahun']);?></td>
-											<td><?php echo htmlentities($result['nama_pt']);?></td>
+											<td><?php echo htmlentities($result['id_owner']);?></td>
 											<td class="text-center"><a href="mobildel.php?id=<?php echo $result['plat'];?>" onclick="return confirm('Apakah anda akan menghapus <?php echo $result['plat'];?>?');"><i class="fa fa-close"></i></a></td>
 										</tr>
 										<?php } ?>
