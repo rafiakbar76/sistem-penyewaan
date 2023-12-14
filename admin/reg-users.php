@@ -71,7 +71,6 @@ else{
 					<div class="col-md-12">
 
 						<h2 class="page-title">User</h2>
-						<div><a href="tambah.php"><li style="width: 51px; height: 20px; right: 21px; top: 3px; position: absolute; background: #64E844;border-radius: 5px;">tambah</a></div>
 
 						<!-- Zero Configuration Table -->
 						<div class="panel panel-default">
