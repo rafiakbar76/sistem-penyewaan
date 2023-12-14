@@ -109,7 +109,6 @@ else{
 											<td><?php echo htmlentities($result['telpon']);?></td>
 											<td><?php echo htmlentities($result['nik']);?></td>
 											<td>
-												<a href="useredit.php?email=<?php echo $result['email'];?>" onclick="return confirm('Apakah anda yakin akan mereset password untuk email <?php echo $result['email'];?>?');"><i class="fa fa-refresh"></i></a>
 												<a href="userdel.php?id=<?php echo $result['id_penyewa'];?>" onclick="return confirm('Apakah anda akan menghapus <?php echo $result['id_penyewa'];?>?');"><i class="fa fa-close"></i></a>
 											</td>
 										</tr>
