@@ -105,7 +105,6 @@ else{
 											<td><?php echo htmlentities($result['tanggal']);?></td>
 											<td><?php echo htmlentities($result['hari']);?></td>
 											<td>
-												<a href="userdel.php?email=<?php echo $result['email'];?>" onclick="return confirm('Apakah anda yakin akan mereset password untuk email <?php echo $result['email'];?>?');"><i class="fa fa-refresh"></i></a>
 												<a href="pem-del.php?id=<?php echo $result['id_pemesanan'];?>" onclick="return confirm('Apakah anda akan menghapus <?php echo $result['id_pemesanan'];?>?');"><i class="fa fa-close"></i></a>
 											</td>
 										</tr>
