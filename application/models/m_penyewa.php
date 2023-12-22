@@ -8,50 +8,8 @@ class M_penyewa extends CI_Model {
 		return $data->result_array();
 	}
 
-	// public function select_by_id($id) {
-	// 	$this->db->where('CategoryID',$id);
-	// 	$data = $this->db->get("categories");		
-	// 	return $data->row();
-	// }
+	public function detail(){
+        	return $this->db->get_where('owner',['id_owner'=>'1']);
+    	}
 
-	// public function insert($data) {
-	// 	$data = array(
-	// 		'CategoryName' => $data['categoryname'],
-	// 		'Description' => $data['description']
-	// 	);
-	// 	$this->db->insert('categories', $data);
-	// 	return $this->db->affected_rows();
-	// }
-
-	// public function insert_batch($data) {
-	// 	$this->db->insert_batch('categories', $data);
-	// 	return $this->db->affected_rows();
-	// }
-
-	// public function update($data) {
-	// 	$list = array(
-	// 		'CategoryName' => $data['categoryname'],
-	// 		'Description' => $data['description']
-	// 	);
-	// 	$this->db->where('CategoryID',$data['category_id']);
-	// 	$this->db->update('categories', $list);				
-	// 	return $this->db->affected_rows();
-	// }
-
-	// public function delete($id) {
-	// 	$this->db->where('CategoryID', $id);
-	// 	$this->db->delete('categories');
-	// 	return $this->db->affected_rows();
-	// }
-
-	// public function check_nama($nama) {
-	// 	$this->db->where('CategoryName', $nama);
-	// 	$data = $this->db->get('categories');
-	// 	return $data->num_rows();
-	// }
-
-	// public function total_rows() {
-	// 	$data = $this->db->get('categories');
-	// 	return $data->num_rows();
-	// }
 }
