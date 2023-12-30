@@ -94,42 +94,6 @@
 						
 						<!-- </tbody> -->
 					</table>
-
-					<!-- <div class="col-lg-6 col-xs-12">
-						<div class="box box-info">
-						<div class="box-header with-border">
-							<i class="fa fa-briefcase"></i>
-							<h3 class="box-title">Statistik <small>Data Rent</small></h3>
-
-							<div class="box-tools pull-right">
-							<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-							</button>
-							<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-							</div>
-						</div>
-						<div class="box-body">
-							<canvas id="data-posisi" style="height:250px"></canvas>
-						</div>
-						</div>
-					</div>
-
-					<div class="col-lg-6 col-xs-12">
-						<div class="box box-primary">
-						<div class="box-header with-border">
-							<i class="fa fa-briefcase"></i>
-							<h3 class="box-title">Statistik <small>Data Film Category</small></h3>
-
-							<div class="box-tools pull-right">
-							<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-							</button>
-							<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-							</div>
-						</div>
-						<div class="box-body">
-							<canvas id="data-kota" style="height:250px"></canvas>
-						</div>
-						</div>
-					</div> -->
 				</div>
 			</section>
 		</div> <!-- headerContent --><!-- mainContent -->
@@ -139,7 +103,6 @@
       <div class="control-sidebar-bg"></div>
     </div>
 
-    <!-- js -->
-    <!-- REQUIRED JS SCRIPTS -->
+
  </body>
 </html>
