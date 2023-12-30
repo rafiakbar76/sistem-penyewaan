@@ -17,13 +17,7 @@
             <!-- User Account Menu -->
             <li class="dropdown user user-menu">
                 <!-- Menu Toggle Button -->
-                <a href="http://localhost/sistem-penyewaan/assets/#" class="dropdown-toggle" data-toggle="dropdown">
-                <!-- The user image in the navbar-->
-                <!-- <img src="http://localhost/eplusgo_penjualan/assets/img/IMG_20211218_1805051.jpg" class="user-image" alt="User Image"> -->
-                <!-- hidden-xs hides the username on small devices so only the image appears. -->
-                
-                </a>
-                
+                <a href="http://localhost/sistem-penyewaan/assets/#" class="dropdown-toggle" data-toggle="dropdown"></a>
             </li>
             </ul>
         </div>
