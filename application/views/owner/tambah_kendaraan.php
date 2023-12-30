@@ -40,33 +40,13 @@
 									<th>ID Owner</th>
 									<th>:</th>
 									<th><input type="text" class="input-kendaraan" name="id_owner" value="<?= $dataOwner->id_owner ?>" readonly></th>
-									<th>
-										<!-- <select name="nama_pt" id="nama_pt" class="input-kendaraan" style="width: 100%" aria-describedby="sizing-addon2">        
-										<?php
-											foreach ($dataMobil as $mobil) {
-											?>
-												<option value="<?php echo $mobil->nama_pt; ?>">
-													<?php echo $mobil->nama_pt; ?>
-												</option>
-											<?php
-											}
-											?>
-										</select> -->
-									</th>
 								</tr>
 								<tr>
-								<th>Gambar</th>
-								<th>:</th>
-								<th><input size="20" type="file" class="input-kendaraan" name="foto"  required="" accept="image"></th>
+									<th>Gambar</th>
+									<th>:</th>
+									<th><input size="20" type="file" class="input-kendaraan" name="foto"  required="" accept="image"></th>
 								</tr>
-								<!-- <tr class="foto">
-									<th >foto kendaraan</th>
-									<th ><input type="image" class="input-kendaraan"></th>
-								</tr> -->
 							</thead>
-							<!-- <tbody id="data-pembayaran"> -->
-							
-							<!-- </tbody> -->
 						</table>
 						<button class="tombol-tambah">Tambah</button>
 					</form>
