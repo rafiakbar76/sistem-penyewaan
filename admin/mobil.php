@@ -79,7 +79,7 @@ if(strlen($_SESSION['alogin'])==0){
 											<th>harga</th>
 											<th>tahun</th>
 											<th>nama pt</th>
-											<th><a href="tambahmobil.php" class='tambah-mobil'><span class="fa fa-plus-circle"></span>Tambah Mobil</a></th>
+											<th>Actions</th>
 										</tr>
 									</thead>
 									<tbody>
